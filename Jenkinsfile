@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-repo>.git'
+                git 'https://github.com/dimpledimpu50-cmyk/jenkins-ci.git'
             }
         }
 
